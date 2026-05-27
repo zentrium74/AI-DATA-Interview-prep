@@ -1,5 +1,4 @@
 # AI-DATA-Interview-prep 20/05/2026
-
 -- =============================================================================
 -- LECTURE 02 - DQL (SELECT IN DEPTH) + BUILT-IN STRING FUNCTIONS
 -- Course  : Data Science & SQL Bootcamp
