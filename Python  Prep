@@ -1,0 +1,90 @@
+Python Runs on Interpreter
+difference between Interpreter and Compiler 
+Interpreter means the code runs by line to line to give the error
+Compiler means the code goes through the total code and gives the error.
+
+DATA TYPES
+# Integers - it is numbers and not the decimal numbers. 
+# String -> Single Quote and double Quote "   "
+# Float - 8.1 ,8.12 this kind of data is called float. 
+# Boolean = True or False in Boolean: both F and T should be capital. 
+# None = USED in none components when you want to diffrenciate used in-depth concepts. 
+
+Rules for Creating VARIABLE IN PYTHON
+ variable name can start with a number. 
+A variable name can only contain alphanumeric. 
+Variable name must start with a letter, or it should be understandable to other team. Variable names are case sensitive. 
+A variable name cannot be any of the Python KEYWORDS. 
+
+#TYPE CHECKING -- it gives us what kind of data type it is. 
+#TypeCheck
+print(type(x))
+print(type(y))
+print(type(z))
+
+<class 'int'>
+<class 'str'>
+<class 'bool'>
+
+#Type CASTING -- this is something which gives importance to the Value and Data Type and gives the value in that type
+x = 5
+y = int("30")
+print(x+y) #Typecasting x to string
+30
+===========================================================
+OPERATORS
+# Arrithmetic Operators- These are used to perform basic math, just like a calculator.
++ Addition: Adds numbers.
+- Subtraction: Subtracts numbers.
+* Multiplication: Multiplies numbers.
+/ Division: Divides numbers and always gives a decimal answer.
+// Floor Division: Divides numbers but rounds down to the nearest whole number.
+% Modulus: Divides numbers but only gives you the remainder left over.
+ Exponentiation: Raises a number to a power (e.g., $2^3$).
+# Example
+x = 10
+y = 3
+
+print(x + y)   # 13
+print(x / y)   # 3.3333333333333335
+print(x // y)  # 3 (ignores the decimal)
+print(x % y)   # 1 (because 3 goes into 10 three times, with 1 left over)
+print(y ** 2)  # 9 (3 to the power of 2)
+
+# Relational / Comparison Operators -- These compare two values and answer with either True or False.
+== Equal to: Checks if two things are exactly the same.
+!= Not equal to: Checks if two things are different.
+> Greater than , < Less than , >= Greater than or equal to , <= Less than or equal to
+## --- eg
+age = 20
+
+print(age == 20)  # True
+print(age != 20)  # False
+print(age > 18)   # True
+print(age <= 15)  # False
+
+## Assignment Operators - 
+# These are used to store or update values inside a variable. They combine a math operation with the equal sign (=) to save you from writing the variable name twice.
+= Assign: Stores a value.
++= Add and assign: Adds to the current value.
+-= Subtract and assign: Subtracts from the current value
+*= Multiply and assign: Multiplies the current value.
+#EG
+score = 0    # Stores 0 in score
+
+score += 5   # Shortcut for: score = score + 5 (score is now 5)
+score -= 2   # Shortcut for: score = score - 2 (score is now 3)
+score *= 2   # Shortcut for: score = score * 2 (score is now 6)
+
+print(score) # 6
+
+
+
+
+
+
+
+
+
+
+
